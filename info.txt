@@ -1,10 +1,47 @@
 섹션 1: Course Introduction
 ----------------------------------------
 1. Introduction
+
++ Lambda % Functional Interfaces
+  - Practicing and Writing Lambda
+  - Predefined Functional Interfaces
+  - Method and Constructor Reference
+  - Optional
+  
++ Functional Programming -Concept & Techniques
+  - Pure Functions
+  - High Order Functions
+  - Referential Transparency
+  - Composition - Chaining - Closure
+  - Currying
+  - Tail Call Optimization
+  
++ Design Pattern 
+  - In Functional Way
+  
++ Streams
+  + Collectors
+    - List<E>
+    - Map<K,V>
+    - Set<E>
+    
++ Reactive Programming
+  - Fundamentals behind reactive programming
+  - RxJava3
+  - Observables - Observers
+  - RxJava Operators
+  - Schedulers
+  - Flowable and Backpressure
+      
 ----------------------------------------
 섹션 2: Why Functional Programming and Why to Bother
 ----------------------------------------
 2. Why to Learn Functional Programming
+
+- 1. What to do rather than how to do
+- 2. Code is concise and Simple
+- 3. Lses error prone
+- 4. Add to you skill set
 ----------------------------------------
 3. Course Resources
 ----------------------------------------
@@ -13,8 +50,22 @@
 4. Introduction
 ----------------------------------------
 5. First Cute Lambda
+
++ Implementing Runnable Interface
+  - Extending the Thread Class
+ 
++ Function Properties
+  - Name of the function
+  - Parameters list
+  - Body of the function
+  - Return type 
 ----------------------------------------
 6. Functional Interfaces
+
+- Functional interface Behind every Lambda
++ Functional Interface
+  - Interface having single abstract method.
+
 ----------------------------------------
 7. How Lambda Works Under the Hood
 ----------------------------------------
