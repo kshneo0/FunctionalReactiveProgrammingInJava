@@ -85,6 +85,24 @@
 섹션 4: Practice Lambda with different signatures
 ----------------------------------------
 10. Introduction
+
+- 1. Access Modifier(Public, Private, Protected etc)
+- 2. Return Type
+- 3. Name of the Function 
+- 4. Parameters List and Parameters Type
+- 5. Method Body
+- 6. Return statement (In case anything to be returned.)
+
++ Lambda
+  - 1. A List of parameters
+  - 2. An arrow -> which separates the list of parameter from the body of the lambda function
+  - 3. The body of the lambda
+  
++ Writing Lambda
+  - 1. No Parameter - No Return type
+  - 2.With Parameter
+  - 3. With Return type
+  - 4. Multi-line Function  
 ----------------------------------------
 11. Practice Lambda - 1
 ----------------------------------------
