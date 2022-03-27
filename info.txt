@@ -68,8 +68,17 @@
 
 ----------------------------------------
 7. How Lambda Works Under the Hood
+
+- java -c ~~~.class
+
+- Lamdas: Type Inference and Invokedynamic
+
 ----------------------------------------
 8. Imperative V/s Declarative
+
+- Pass Behaviour as Parameter
++ Declarative programming
+  - where the Programmer says what to do rather then how to do
 ----------------------------------------
 9. Summary
 ----------------------------------------
