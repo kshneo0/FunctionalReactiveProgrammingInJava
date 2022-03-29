@@ -4,8 +4,8 @@ public class ReferentialTransparency {
 
 	public static void main(String[] args) {
 		
-		int result = add(2, multiply(2,multiply(2,2)));
-//		int result = add(2, 8);
+//		int result = add(2, multiply(2,multiply(2,2)));
+		int result = add(2, 8);
 		System.out.println(result);
 
 	}
