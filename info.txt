@@ -281,6 +281,11 @@
 71. Streams are Lazy
 ----------------------------------------
 72. Numeric Streams
+
+- IntStream
+- LongStream
+- DoubleStream
+
 ----------------------------------------
 73. Numeric Streams - Methods
 ----------------------------------------
