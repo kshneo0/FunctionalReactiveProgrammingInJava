@@ -296,10 +296,30 @@
 76. Stream.of and FlatMap
 ----------------------------------------
 77. Parallel Streams
+
++ Stream should be -
+	- Stateless
+	- Non-interfering
+	- Associative
+	
++ Multithreading Challenges
+	- Synchronization Issues
+	- Visibility Issues
+
 ----------------------------------------
 78. Stateless and stateful operations
+
++ Stateless Operations
+	- Do not need any kind of outside information.
+
++ Stateful Operations
+	- Use outside information.
 ----------------------------------------
 79. Setting Parallelism
+
++ Common Fork-Join Pool
+	- Used by all parallel stream operations!
+	- Takes all available processors by default
 ----------------------------------------
 80. Summary and BrainMapping
 ----------------------------------------
