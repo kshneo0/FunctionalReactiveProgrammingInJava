@@ -12,7 +12,7 @@ public class TailCallOptimization {
 		if( n  <= 1)
 			return 1;
 		else
-		return n * reFact(n-1);
+			return n * reFact(n-1);
 		
 	}
 	
@@ -22,7 +22,7 @@ public class TailCallOptimization {
 		if( n <= 1)
 			return a;
 		else
-		return tailReFact(n-1, n * a);
+			return tailReFact(n-1, n * a);
 		
 	}
 
