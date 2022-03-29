@@ -267,6 +267,12 @@
 67. Streams are not data Containers
 ----------------------------------------
 68. Filter Operations
+
++ High Order Functions
+	- 1. Filter
+	- 2. Map
+	- 3. Reduce
+
 ----------------------------------------
 69. Map Operations
 ----------------------------------------
