@@ -258,6 +258,11 @@
 65. Observing the Stream
 ----------------------------------------
 66. Stream Pipeline
+
+- 1. Source
+- 2. Zero or more Intermediate Operations
+- 3. A Terminal operation
+
 ----------------------------------------
 67. Streams are not data Containers
 ----------------------------------------
