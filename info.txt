@@ -243,6 +243,17 @@
 63. Introduction
 ----------------------------------------
 64. Streams Introduction
+
++ Streams
+	- Declarative
+	- Flexible
+	- Parallelizable
+
++ How?
+	- 1. The Stream takes the data from a source
+	- 2. Do all the processing
+	- 3. Return the data into the container the user wants or just consumes the data
+	
 ----------------------------------------
 65. Observing the Stream
 ----------------------------------------
