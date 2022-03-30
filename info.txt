@@ -421,10 +421,30 @@
 116. Fundamentals 4 - Observer Design Pattern
 ----------------------------------------
 117. Fundamentals 5 - Concurrency and Parallel programming
+
++ Concurrency(동시성) 
+	- 다음을 사용하여 단일 CPU에서 프로그램의 여러 부분을 실행
++ Parallel(병렬)
+	- 멀치코어 프로세서에 동시에 작업이 다른 코어에서 처리되도록 분
 ----------------------------------------
 118. RxJava BIG Picture : How It Solves The Problem And Achieve Reactive manifesto
+
+- 1. RxJava works onPUSH rather than Pull
+- 2. Different channels for different signals
+- 3. RxJava can compose Events by operators
+- 4. RxJava uses Schedulers
+- 5. BackPressure using Flowable
 ----------------------------------------
 119. RxJava Reactive Streams
+
++ java
+	+ Reactive Streams
+		+ 1.Interfaces
+			- Flowable instad Observable
+		- 2. Reactive Streams Technology Compatibility Kit(TCK)
+
+Java 9 - Flowable API
+		
 ----------------------------------------
 120. Summary
 ----------------------------------------
