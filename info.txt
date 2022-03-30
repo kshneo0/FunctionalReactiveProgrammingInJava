@@ -380,8 +380,21 @@
 섹션 15: Data Structures Functional Way
 ----------------------------------------
 104. Introduction
+
+- Functional Data Structures | Properties
+- How they are different? (or even better!)
+- Functional implementations for basic data structures
+
 ----------------------------------------
 105. Functional Data Structure - What and why
+
++ Functional Data Structure
+	- Not imperative; implemented in functional way.
+	
++ A Functional data structure is -
+	- Immutable
+	- Persistent
+	
 ----------------------------------------
 106. List
 ----------------------------------------
