@@ -2,6 +2,10 @@ package com.basicsstrong.reactive.sec01;
 
 public interface CallBack {
 	
-	void call();
+	void pushData(String data);
+	
+	void pushComplete();
+
+	void pushError(Exception ex);
 
 }
