@@ -512,10 +512,6 @@ list.add("Paul");
 source.subscribe(System.out::println);
 -----
 
-
-
-
-
 ----------------------------------------
 128. Creating Observer
 ----------------------------------------
