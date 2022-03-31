@@ -477,6 +477,45 @@ observable
 
 ----------------------------------------
 127. Creating Observable
+
+- create(source)
+- just(1Upto9Items...)
+- fromIterable(iterableSource)
+- range(startValue, totalCount) / rangeLong(startValue, totalCount)
+- Observable.internal(period, unit)
+- Observable.fromFuture(future)
+- Observable.empty()
+- Observable.never()
+- Observable.error(exception)
+- Observable.defer(supplier)
+- Observable.fromCallable(Callable)
+
+-----
+Observable
+.range(3,10)
+.subscribe(s -> System.out.println("RECEIVED: "+ s);
+-----
+Observable.interval(1, TimeUnit.SECONDS)
+Thread.sleep(1000)
+-----
+List<String> list = new ArrayList<>();
+list.add("Ram");
+list.add("Mike");
+Observable<String> source = Observable.defer(
+	() -> Observable.fromIterable(list)
+);
+
+source.subscribe(System.out::println);
+
+list.add("Paul");
+
+source.subscribe(System.out::println);
+-----
+
+
+
+
+
 ----------------------------------------
 128. Creating Observer
 ----------------------------------------
