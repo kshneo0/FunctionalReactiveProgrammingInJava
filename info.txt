@@ -625,6 +625,9 @@ source.subscribe(System.out::println);
 146. Introduction
 ----------------------------------------
 147. How To ?
+
++ The Observable Contract
+	- The emissions must be passed sequentially and one at a time
 ----------------------------------------
 148. Schedulers
 ----------------------------------------
