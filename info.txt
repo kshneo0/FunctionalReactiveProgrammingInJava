@@ -630,6 +630,35 @@ source.subscribe(System.out::println);
 	- The emissions must be passed sequentially and one at a time
 ----------------------------------------
 148. Schedulers
+
++ 1. Computation Scheduler
+	- Schedulers.computation()
+	- Computational Intensive Tasks
+		- A lot of calculation	
+	- No. Of Threads = Number of available Cores
+		- Runtime.getRunTime().avaluableProcessors()
+
++ 2. IO Scheduler
+	- schedulers.io()
+	- IO Intensive Tasks
+		- Input Output Operations
+	- No. Of Threads > Number of available Cores
+		- Runtime.getRunTime().avaluableProcessors()
+		
++ 3. NewThread Scheduler
+	- Schedulers.newThread()
+	- Create 1 Thread per Observer and then destory the thread when done/
+	
++ 4. Single Scheduler
+	- Schedulers.single()
+	- Create only 1 Thread, So to run all the tasks sequentially on that thread.
+	
++ 5. Trampoline Scheduler
+	- Schedulers.trampoline()	
+
++ 6. Scheduler.from()
+	- Scheduler.from(executorService)
+	
 ----------------------------------------
 149. subscribeOn()
 ----------------------------------------
