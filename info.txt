@@ -661,6 +661,10 @@ source.subscribe(System.out::println);
 	
 ----------------------------------------
 149. subscribeOn()
+
+- 1. The position does not matter :
+- 2. The position matter :
+
 ----------------------------------------
 150. observeOn()
 ----------------------------------------
@@ -708,6 +712,14 @@ source.subscribe(System.out::println);
 ----------------------------------------
 169. Summary
 ----------------------------------------
+
+
+
+
+
+
+
+
 섹션 25: Appendix- Object Oriented Design Patterns
 ----------------------------------------
 170. Iterator Design Pattern
