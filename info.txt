@@ -683,6 +683,18 @@ source.subscribe(System.out::println);
 156. Adding Emissions Using Subject
 ----------------------------------------
 157. Subject Implementations
+
++ Types of Subjects
+	+ PublishSubject
+		- Starts to emit the source observables items from the moment observer subscribe to it.
+	+ ReplaySubject
+		- emits all the items of the source observable, regardless of when the subscriber subscribes.	
+	+ BehaviorSubject
+		- emit the most recent item with the subsequent items of the source observable from the point of subscription
+	+ AsyncSubject
+		- emits only the last value of the source obervable.
+	+ UnicastSubject
+		- buffers all the emissions received by the sources, until an observer subscribes to it.
 ----------------------------------------
 158. Summary
 ----------------------------------------
