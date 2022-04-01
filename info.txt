@@ -701,8 +701,32 @@ source.subscribe(System.out::println);
 섹션 23: Buffering, Throttling and Switching
 ----------------------------------------
 159. Introduction
+
+- We can't control the user itself with program to slow down his inputs!
+- buffer()
+- window()
+- throttleFirst() throttleLast()
+- switchMap()
+
 ----------------------------------------
 160. Buffer and Window
+
++ buffer()
+	- gather emissions in specified scope
+	- emit each batch or group as a collection type
+	+ Defining scope
+		- buffer(int count)
+		- buffer(long timespan)
+		- buffer(Observable boundaryIndicator)
++ window()
+	- buffer into other observables rather than collections.
+	- yields Observable of Observables.
+	- emits emissions immediately as soon they become a available.
+	+ Defining scope
+		- window(int count)
+		- window(long timespan)
+		- window(Observable boundaryIndicator)	
+		
 ----------------------------------------
 161. Throttle Operator
 ----------------------------------------
