@@ -731,6 +731,8 @@ source.subscribe(System.out::println);
 161. Throttle Operator
 ----------------------------------------
 162. SwitchMap()
+- similar to flatMap()
+- it only subscribes to the emitted observable, and dispose the previous ones
 ----------------------------------------
 163. Summary
 ----------------------------------------
