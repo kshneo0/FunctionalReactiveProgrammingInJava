@@ -10,8 +10,10 @@ public class SubscribeOn {
 				Observable.just("Pasta", "Pizza", "Fries", "Curry", "Chow mein")
 				.subscribeOn(Schedulers.computation())
 				.map(e -> e.toUpperCase())
+				.doOnNext(e -> System.out.println(Thread.currentThread().getName()))
 				.observeOn(Schedulers.newThread())
 				.filter(e -> e.startsWith("P"))
+				.observeOn(Schedulers.io())
 				.subscribe(e -> print(e));
 		
 		
