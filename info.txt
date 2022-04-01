@@ -747,6 +747,16 @@ source.subscribe(System.out::println);
 167. Creation And BackPressure Strategies
 ----------------------------------------
 168. Flowable Vs Observable
+
++ Flowable
+	- when source is emitting large amount of data
+	- hot observables emitting data endlessly
+	- Asynchronous | Concurrent and Parelle programming
+	
+	- to handle emissions from IO operations.
++ Observable
+	- in case of flower, steady, continuous emissions
+	- quick, less overhead	
 ----------------------------------------
 169. Summary
 ----------------------------------------
